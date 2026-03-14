@@ -1,0 +1,149 @@
+{
+  "success": true,
+  "checks": [
+    {
+      "check": "expected_columns_present",
+      "passed": true,
+      "missing_columns": []
+    },
+    {
+      "check": "row_count_gt_0",
+      "passed": true,
+      "row_count": 1000
+    },
+    {
+      "check": "null_rate_Age",
+      "passed": true,
+      "column": "Age",
+      "null_rate": 0.0,
+      "threshold": 0.0
+    },
+    {
+      "check": "null_rate_Sex",
+      "passed": true,
+      "column": "Sex",
+      "null_rate": 0.0,
+      "threshold": 0.0
+    },
+    {
+      "check": "null_rate_Job",
+      "passed": true,
+      "column": "Job",
+      "null_rate": 0.0,
+      "threshold": 0.0
+    },
+    {
+      "check": "null_rate_Housing",
+      "passed": true,
+      "column": "Housing",
+      "null_rate": 0.0,
+      "threshold": 0.0
+    },
+    {
+      "check": "null_rate_Saving accounts",
+      "passed": true,
+      "column": "Saving accounts",
+      "null_rate": 0.183,
+      "threshold": 0.6
+    },
+    {
+      "check": "null_rate_Checking account",
+      "passed": true,
+      "column": "Checking account",
+      "null_rate": 0.394,
+      "threshold": 0.6
+    },
+    {
+      "check": "null_rate_Credit amount",
+      "passed": true,
+      "column": "Credit amount",
+      "null_rate": 0.0,
+      "threshold": 0.0
+    },
+    {
+      "check": "null_rate_Duration",
+      "passed": true,
+      "column": "Duration",
+      "null_rate": 0.0,
+      "threshold": 0.0
+    },
+    {
+      "check": "null_rate_Purpose",
+      "passed": true,
+      "column": "Purpose",
+      "null_rate": 0.0,
+      "threshold": 0.0
+    },
+    {
+      "check": "range_Age",
+      "passed": true,
+      "column": "Age",
+      "min": 18,
+      "max": 100,
+      "invalid_count": 0
+    },
+    {
+      "check": "range_Job",
+      "passed": true,
+      "column": "Job",
+      "min": 0,
+      "max": 10,
+      "invalid_count": 0
+    },
+    {
+      "check": "range_Credit amount",
+      "passed": true,
+      "column": "Credit amount",
+      "min": 1,
+      "max": 1000000,
+      "invalid_count": 0
+    },
+    {
+      "check": "range_Duration",
+      "passed": true,
+      "column": "Duration",
+      "min": 1,
+      "max": 120,
+      "invalid_count": 0
+    },
+    {
+      "check": "allowed_values_Sex",
+      "passed": true,
+      "column": "Sex",
+      "unexpected_values": []
+    },
+    {
+      "check": "allowed_values_Housing",
+      "passed": true,
+      "column": "Housing",
+      "unexpected_values": []
+    },
+    {
+      "check": "numeric_type_Age",
+      "passed": true,
+      "column": "Age"
+    },
+    {
+      "check": "numeric_type_Job",
+      "passed": true,
+      "column": "Job"
+    },
+    {
+      "check": "numeric_type_Credit amount",
+      "passed": true,
+      "column": "Credit amount"
+    },
+    {
+      "check": "numeric_type_Duration",
+      "passed": true,
+      "column": "Duration"
+    }
+  ],
+  "failed_checks": [],
+  "summary": {
+    "rows": 1000,
+    "cols": 10,
+    "total_checks": 21,
+    "failed_checks": 0
+  }
+}

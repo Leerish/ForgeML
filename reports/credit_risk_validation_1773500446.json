@@ -1,0 +1,44 @@
+{
+  "success": false,
+  "checks": [
+    {
+      "check": "expected_columns_present",
+      "passed": false,
+      "missing_columns": [
+        "status",
+        "duration",
+        "credit_history",
+        "purpose",
+        "amount",
+        "savings",
+        "employment_duration",
+        "installment_rate",
+        "personal_status_sex",
+        "present_residence"
+      ]
+    }
+  ],
+  "failed_checks": [
+    {
+      "check": "expected_columns_present",
+      "passed": false,
+      "missing_columns": [
+        "status",
+        "duration",
+        "credit_history",
+        "purpose",
+        "amount",
+        "savings",
+        "employment_duration",
+        "installment_rate",
+        "personal_status_sex",
+        "present_residence"
+      ]
+    }
+  ],
+  "summary": {
+    "rows": 1000,
+    "cols": 10,
+    "reason": "missing required columns"
+  }
+}

@@ -1,0 +1,35 @@
+# Core orchestration
+prefect==2.16.5
+griffe==0.44.0
+# Data + ML
+pandas
+numpy
+scikit-learn
+xgboost
+
+# Storage (MinIO / S3)
+boto3
+botocore
+
+# Model tracking
+mlflow
+
+# Data validation
+great-expectations
+
+# API serving
+fastapi
+uvicorn
+
+# Monitoring
+prometheus-client
+
+# Config + utilities
+pydantic
+python-dotenv
+requests
+
+# Optional but useful (safe to keep)
+redis
+
+great-expectations
