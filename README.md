@@ -1,6 +1,7 @@
 ---
 
 # ForgeML — AI-Native MLOps Platform 🚀
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ForgeML is an **end-to-end MLOps platform** designed to manage the complete lifecycle of machine learning systems — from dataset ingestion and validation to model training, experiment tracking, model promotion, and production inference.
 
