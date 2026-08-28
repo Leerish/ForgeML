@@ -7,6 +7,7 @@ from services.api.app.registry_reader import get_production_model_record
 
 
 BASE_DIR = Path(__file__).resolve().parents[3]
+
 MODEL_PATH = BASE_DIR / "artifacts" / "credit_model.joblib"
 
 _model = None
